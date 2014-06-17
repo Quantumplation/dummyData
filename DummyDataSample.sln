@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyDataSample", "DummyDataSample\DummyDataSample.csproj", "{D950485F-75A4-4BF8-9527-621ABD576009}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyUnitTests", "DummyUnitTests\DummyUnitTests.csproj", "{4CF68AD3-2D35-48B3-AAD2-CF0B5934590C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataDepotUnitOfWork", "DataDepotUnitOfWork\DataDepotUnitOfWork.csproj", "{C9AB0AA4-19D4-4D9A-AB76-73BBCBA537B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4CF68AD3-2D35-48B3-AAD2-CF0B5934590C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CF68AD3-2D35-48B3-AAD2-CF0B5934590C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CF68AD3-2D35-48B3-AAD2-CF0B5934590C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9AB0AA4-19D4-4D9A-AB76-73BBCBA537B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AB0AA4-19D4-4D9A-AB76-73BBCBA537B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9AB0AA4-19D4-4D9A-AB76-73BBCBA537B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9AB0AA4-19D4-4D9A-AB76-73BBCBA537B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
